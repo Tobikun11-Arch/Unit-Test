@@ -113,3 +113,7 @@ Or with pnpm:
 ```bash
 pnpm test
 ```
+
+Additional:
+If you encounter a problem and plan to run a test the next day, make sure to delete the file named snapshot.js.snap in the snapshots folder and run 
+the test again.
